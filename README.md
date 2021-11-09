@@ -1,3 +1,3 @@
-# Gradle Setup for KettleMC.net Plugins
+# 🏠 Simple Villager Names
 
-Based on the [CFW](https://github.com/CuukyOfficial/CFW)/[VaroPlugin](https://github.com/CuukyOfficial/VaroPlugin) by Cuuky
+A simple plugin that allows Villagers to have names. You can also rename them using a nametag.
