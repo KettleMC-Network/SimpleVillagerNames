@@ -1,0 +1,15 @@
+# Disable this if you don't want Villagers to be renameable using Nametags
+allow-renaming: true
+
+# Enable this if Villager baby should get a random lastname instead of the lastname of a parent
+random-baby-lastname: false
+
+# The standard name for a Villager if for some reason no name can be found
+standard-name: Phil Itcher
+
+# List of reasons that cause a Villager not to get a random name on spawn
+# See https://hub.spigotmc.org/stash/projects/SPIGOT/repos/bukkit/browse/src/main/java/org/bukkit/event/entity/CreatureSpawnEvent.java#41
+# This includes "CUSTOM" and "COMMAND" by default in order to not mess with other plugins/commands
+disabled-spawn-reasons:
+- CUSTOM
+- COMMAND

@@ -1,4 +1,4 @@
-package de.cuuky.cfw.configuration;
+package net.kettlemc.villagernames.configuration;
 
 import org.bukkit.ChatColor;
 import org.bukkit.configuration.file.YamlConfiguration;

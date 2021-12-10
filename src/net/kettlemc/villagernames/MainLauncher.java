@@ -1,4 +1,4 @@
-package net.kettlemc.plugin;
+package net.kettlemc.villagernames;
 
 import javax.swing.JOptionPane;
 

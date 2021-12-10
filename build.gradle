@@ -32,7 +32,7 @@ repositories {
     flatDir {
         dirs 'libs'
     }
-    
+
     maven {
         url 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/'
     }
@@ -51,7 +51,7 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.7.2")
     testImplementation("org.junit.jupiter:junit-jupiter-engine:5.7.2")
 
-    this.addModularCompile('org.spigotmc:spigot-api:1.8.8-R0.1-SNAPSHOT', 'spigot', false)
+    this.addModularCompile('org.spigotmc:spigot-api:1.10.2-R0.1-SNAPSHOT', 'spigot', false)
 }
 
 boolean checkLib(String filePath) {
@@ -95,7 +95,7 @@ processResources {
         filter ReplaceTokens, tokens: [name: "SimpleVillagerNames"]
         filter ReplaceTokens, tokens: [version: "1.0.0-BETA"]
         filter ReplaceTokens, tokens: [author: "KettleMC"]
-        filter ReplaceTokens, tokens: [main: "net.kettlemc.villagernames.Main"]
+        filter ReplaceTokens, tokens: [main: "net.kettlemc.villagernames.VillagerNamePlugin"]
     }
 }
 
